@@ -1,0 +1,4 @@
+messages:
+  myxp-message: "§aDu hast momentan §6%points% Erfahrungspunkte §a(§6Level %level%§a) und benötigst §6%pointsToNextLevel% Erfahrungspunkte §azum nächsten Level."
+  payxp:
+    

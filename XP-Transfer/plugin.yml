@@ -1,0 +1,13 @@
+name: XP-Transfer
+version: 1.0
+author: ChrisOchs
+
+main: me.chrisochs.xptransfer.Main
+
+commands:
+  payxp:
+    description: Sendet Erfahrungspunkte an einen Spieler
+    usage: /<command> [PLAYER] [POINTS]
+  myxp:
+    description: Zeigt dem Spieler seine Erfahrungspunkte, sowie die benötigten Erfahrungspunkte zum Levelaufstieg an.
+    usage: /<command>
