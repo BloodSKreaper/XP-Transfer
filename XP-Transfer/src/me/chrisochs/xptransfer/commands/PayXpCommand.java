@@ -52,7 +52,7 @@ public class PayXpCommand implements CommandExecutor{
 							p.sendMessage(message);
 						}else {
 							//exp > 0 && Player online
-							if(p.getPlayer().getTotalExperience()<exp) {
+							if(XPHandler.getTotalExperience(p)<exp) {
 								String message = Main.messages.getMessage("payxp-notenaughtexp");
 								message = ChatColor.translateAlternateColorCodes('&', message);
 								message = message.replace("%points%", String.valueOf(XPHandler.getTotalExperience(p)));
